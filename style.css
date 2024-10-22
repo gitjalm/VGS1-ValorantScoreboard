@@ -1,0 +1,59 @@
+* {
+    padding: 0;
+    margin: 0;
+    color: white;
+    font-family: myFirstFont;
+}
+
+@font-face{
+    font-family: myFirstFont;
+    src: url('valfont.ttf');
+}
+
+/* https://www.bing.com/images/search?view=detailV2&ccid=5kgZuGmk&id=2BC1BBAE5EC65E4D4C6DA1F898D7E1E6683C9BD0&thid=OIP.5kgZuGmk_crsBqSnwzL1AgHaEo&mediaurl=https%3A%2F%2Fimages.hdqwalls.com%2Fdownload%2Fvalorant-reyna-4k-2020-2y-3840x2400.jpg&cdnurl=https%3A%2F%2Fth.bing.com%2Fth%2Fid%2FR.e64819b869a4fdcaec06a4a7c332f502%3Frik%3D0Js8aObh15j4oQ%26pid%3DImgRaw%26r%3D0&exph=2400&expw=3840&q=valorant+bilde&simid=608051938467654332&form=IRPRST&ck=40C0EFCB1F7303319F880EE55DC74F85&selectedindex=6&itb=0&ajaxhist=0&ajaxserp=0&vt=0&sim=11 */
+body {
+    background-image: url("val.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+header {
+    text-align: center;
+    padding-top: 2%;
+    background-color: #6A2A35;
+    padding-bottom: 2%;
+}
+
+#tablediv {
+    margin-top: 15%;
+    margin-left: 18%;
+}
+
+table {
+    border-collapse: collapse;
+    width: 80%;
+    background-color: #6A2A35;
+}
+
+.left {
+    text-align: left;
+}
+
+td, th {
+    text-align: center;
+    font-size: 225%;
+    padding: 10px;
+}
+  
+tr:nth-child(even) {
+    background-color: #FB4353;
+}
+
+/* For at elementene ikke blir most */
+@media screen and (max-width: 600px) {
+    #tablediv {
+      margin-left: 10%;
+      margin-right: 8%;
+    }
+  }
