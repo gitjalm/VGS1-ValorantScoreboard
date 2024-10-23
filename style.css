@@ -26,8 +26,8 @@ header {
 }
 
 #tablediv {
-    margin-top: 15%;
-    margin-left: 18%;
+    margin-top: 10%;
+    margin-left: 18.5%;
 }
 
 table {
@@ -43,7 +43,7 @@ table {
 td, th {
     text-align: center;
     font-size: 225%;
-    padding: 10px;
+    padding: 2%;
 }
   
 tr:nth-child(even) {
